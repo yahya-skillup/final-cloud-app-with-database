@@ -29,6 +29,7 @@ DEBUG = True
 # <HINT> add your cloud host here
 ALLOWED_HOSTS = []
 
+CSRF_TRUSTED_ORIGINS = ['https://*.cognitiveclass.ai']
 
 # Application definition
 INSTALLED_APPS = [
